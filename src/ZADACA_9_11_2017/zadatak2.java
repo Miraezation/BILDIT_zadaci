@@ -37,7 +37,7 @@ public class zadatak2 {
 	
 	}       
 }
-		System.out.println(" Najveći prosti palindrom od 1 do 1000 je : " + z);
+		System.out.println(" Najveći prosti palindrom od 1 do 1000 je : " + e);
 	}
 }
 
