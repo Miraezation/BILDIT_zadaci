@@ -8,10 +8,10 @@ public class zadatak2 {
 	int	palindrom=0;
 	int i=0;
 	int z=0;
-	
+	int e=0;
 	
 	for (i=100;i<1000;i++){
-	    int zadnja=i%1;
+	    int zadnja=i%10;
 		int prva=i/100;
 	if (zadnja==prva){
 		palindrom=i;		
@@ -32,17 +32,12 @@ public class zadatak2 {
         }
 
         if (palindrom==z && k==0){
-    		
-    		System.out.println(" Najveæi prosti palindrom od 1 do 1000 je : " + z);}
-        
-        
+    		e=z;
+    		}
 	
-        	
-        		
-        		
-        			
-			}       
-		}
+	}       
+}
+		System.out.println(" NajveÄ‡i prosti palindrom od 1 do 1000 je : " + e);
 	}
 }
 
